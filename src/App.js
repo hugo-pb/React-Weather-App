@@ -1,11 +1,11 @@
 import "./App.css";
-
+import Weather from "./components/Weather";
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Hweather App</h1>
-        
+        <h1 className="H">Hweather App</h1>
+        <Weather />
         <footer>
           <p>
             App created by{" "}
