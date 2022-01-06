@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <div className="container">
         <h1 className="H">Hweather App</h1>
-        <Weather />
+        <Weather defaultCity="Edmonton" />
         <footer>
           <p>
             App created by{" "}
