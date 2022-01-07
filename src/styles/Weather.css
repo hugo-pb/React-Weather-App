@@ -23,7 +23,7 @@
 }
 .Weather canvas {
   display: inline;
-  height: 64px;
+  
   margin-right: 10px;
 }
 .Weather .flex{
