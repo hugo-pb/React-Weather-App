@@ -8,7 +8,6 @@ export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
 const [city, setCity] =useState(props.defaultCity)
   function handleResponse(r) {
-    
     setWeatherData({
       ready: true,
       temperature: r.data.main.temp,
@@ -18,14 +17,17 @@ const [city, setCity] =useState(props.defaultCity)
       description: r.data.weather[0].description,
       date: new Date(r.data.dt * 1000),
         feels: r.data.main.feels_like,
-      icon: r.data.weather[0].icon
+      icon: r.data.weather[0].icon,
+      lon: r.data.coord.lon,
+lat: r.data.coord.lat,
     });
     }
    function search(){
         const apiKey = "c69faf9d2df6cf97f08634b08792a39d";
     let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(url).then(handleResponse);
-}
+console.log(weatherData.lon)
+   }
 
     function handleSubmit(e) {
         e.preventDefault()
@@ -58,7 +60,7 @@ const [city, setCity] =useState(props.defaultCity)
           </div>
             </form>
             <WeatherInfo data={weatherData} />
-        <WeatherForcast />
+          <WeatherForcast lon={weatherData.lon} lat= {weatherData.lat} />
       </div>
     );
   }else {
