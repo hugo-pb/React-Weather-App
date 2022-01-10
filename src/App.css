@@ -10,4 +10,6 @@
 .App .H {
   text-align: center;
   margin-bottom: 10px;
+  z-index: 7;
+  color: black;
 }

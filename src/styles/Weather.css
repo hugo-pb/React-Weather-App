@@ -1,7 +1,7 @@
 .Weather {
   border: 1px solid #dadde1;
   padding: 16px;
-
+z-index: 0;
   border-radius: 4px;
 }
 .Weather h1 {

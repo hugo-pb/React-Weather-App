@@ -1,8 +1,10 @@
 import "./App.css";
 import Weather from "./components/Weather";
+import Change from "./components/Change";
 function App() {
   return (
     <div className="App">
+      <Change />
       <div className="container">
         <h1 className="H">Hweather App</h1>
         <Weather defaultCity="Edmonton" />
