@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <Change />
       <div className="container">
-        <h1 className="H">Hweather App</h1>
+        <h1 className="H">Just Weather</h1>
         <Weather defaultCity="Edmonton" />
         <footer>
           <p>
