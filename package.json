@@ -2,7 +2,7 @@
   "name": "weatherreact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hugo-pb.github.io/React-Weather-App/",
+  "homepage": "https://vibrant-mestorf-8ee54c.netlify.app/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -23,7 +23,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-
   },
   "eslintConfig": {
     "extends": [
