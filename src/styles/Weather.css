@@ -50,3 +50,7 @@ z-index: 7;
     position: relative;
     top: -19px;
 }
+.Weather .btn {  
+  color:white;
+border: 2px dotted ;
+}
