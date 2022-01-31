@@ -1,17 +1,17 @@
 .Weather {
- 
-  padding: 16px;
+ background-color: white;
 z-index: 7;
   border-radius: 4px;
+  padding: 3rem;
 }
 .Weather h1 {
-  color: #ffffff;
+  color: #000000;
   font-size: 22px;
   line-height: 26px;
   margin-top: 20px;
 }
 .Weather li {
-  color: #ffffff;
+  color: #000000;
   font-size: 12px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -36,14 +36,14 @@ z-index: 7;
   font-size: 47px;
   letter-spacing: -1px;
   line-height: 64px;
-  color: #ffffff;
+  color: #000000;
   text-transform: none;
   max-height: 999999px;
 }
 
  
 .unit {
-   color: #ffffff;
+   color: #000000;
     display: inline-block;
     font-size: 16px;
     line-height: 24px;
@@ -51,6 +51,6 @@ z-index: 7;
     top: -19px;
 }
 .Weather .btn {  
-  color:white;
+  color:rgb(0, 0, 0);
 border: 2px dotted ;
 }
