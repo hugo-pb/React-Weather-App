@@ -1,1 +1,1 @@
-see the project here = https://vibrant-mestorf-8ee54c.netlify.app/
+see the project here = https://reactjustweather.netlify.app
